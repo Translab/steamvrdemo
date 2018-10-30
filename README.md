@@ -9,17 +9,17 @@ Unity 2018.2.12f1
 SteamVR 2.1
 
 ## Instructions
-#### install steamVR
+#### Install steamVR
 1. open up an empty new project, create a new scene as playground
 2. delete Main Camera from the scene, as we will be using VR camera instead.
 3. go to the asset tab, search steamVR plugin, download and install. A folder named "steamVR" will show up
 
-#### Create action sets
+#### Create action sets (you only need to do this at the very first time)
 1. on the menu, go to Window - SteamVR Input
 2. a window shows up and we see different action sets, you can create your own action set and modify it, but usually we just use "default" set directly
 3. click save and generate. wait for steamVR to generate code for interaction scripts.
 
-#### Add / Modify action sets for touchpad press and touchpad position 
+#### Add / Modify action sets for touchpad press and touchpad position
 1. on the menu, go to Window - SteamVR Input
 2. in the actions section, click the little "+" icon, you will be able to add a new action for controller.
 3. give it a name as "TouchPad", type as "boolean", localized string as "touchpad"
